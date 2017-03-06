@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Etresoft, Inc.</string>
+	<key>Builder Version</key>
+	<string>11602.4.8.0.1</string>
+	<key>CFBundleDisplayName</key>
+	<string>ASCPowerTools2</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.etresoft.ascpowertools2</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Content</key>
+	<dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>styles.css</string>
+		</array>
+	</dict>
+	<key>DeveloperIdentifier</key>
+	<string>P599JYY9LT</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>discussions.apple.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://etresoft.com/download/ExtensionUpdates.plist</string>
+	<key>Website</key>
+	<string>https://etresoft.com</string>
+</dict>
+</plist>

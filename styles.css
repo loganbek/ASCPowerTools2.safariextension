@@ -1,0 +1,54 @@
+/* Move the refresh button back to where it is supposed to be. */
+#auto-refresh
+  {
+  left: auto !important;
+  top: auto !important;
+  }
+
+/* Get rid of the blank column to the right of the title column. */
+#dashboard-grid-data td.contentTitle
+  {
+  padding-right: 0px !important;
+  }
+
+/* Don't hard-code the position of these columns. */
+#dashboard-grid-data th.viewCount,
+#dashboard-grid-data td.viewCount
+  {
+  position: relative !important;
+  right: auto !important;
+  } 
+
+/* Don't hard-code the position of these columns. */
+#dashboard-grid-data th.replyCount,
+#dashboard-grid-data td.replyCount
+  {
+  position: relative !important;
+  right: auto !important;
+  } 
+
+/* Don't hard-code the position of these columns. */
+#dashboard-grid-data th.latestReply,
+#dashboard-grid-data td.latestReply
+  {
+  position: relative !important;
+  right: auto !important;
+  } 
+
+/* Get rid of the ellipses and left justify. */
+#dashboard-grid-data td.latestReply a
+  {
+  width: 110px !important;
+  max-width: 110px !important;
+  float: left;
+  text-align: left;
+  text-overflow: clip !important;
+  }
+
+/* Float to the right and get rid of "minutes ago". */
+#dashboard-grid-data td.latestReply a.last-replied.time
+  {
+  width: 45px !important;
+  float: right;
+  }
+
