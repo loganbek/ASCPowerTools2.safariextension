@@ -5,6 +5,23 @@
   top: auto !important;
   }
 
+/* Show read flags in subscriptions */
+#dashboard-grid-data th.readFlag,
+#dashboard-grid-data td.readFlag 
+  {
+  display: table-cell !important;
+  position: relative !important;
+  right: auto !important;
+  visibility: visible !important;
+  background-position: 14px 13px !important;
+  }
+
+#dashboard-grid-data th.readFlag .icon,
+#dashboard-grid-data td.readFlag .icon
+  {
+  margin-top: 8px !important;
+  }
+                                      
 /* Get rid of the blank column to the right of the title column. */
 #dashboard-grid-data td.contentTitle
   {
