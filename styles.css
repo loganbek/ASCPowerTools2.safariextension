@@ -34,6 +34,8 @@
   {
   position: relative !important;
   right: auto !important;
+  text-align: right !important;
+  background-position: right center !important;
   } 
 
 /* Don't hard-code the position of these columns. */
@@ -42,6 +44,8 @@
   {
   position: relative !important;
   right: auto !important;
+  text-align: right !important;
+  background-position: right center !important;
   } 
 
 /* Don't hard-code the position of these columns. */
