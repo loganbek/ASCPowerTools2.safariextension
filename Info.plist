@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Etresoft, Inc.</string>
 	<key>Builder Version</key>
-	<string>11602.4.8.0.1</string>
+	<string>12603.1.30.0.34</string>
 	<key>CFBundleDisplayName</key>
 	<string>ASCPowerTools2</string>
 	<key>CFBundleIdentifier</key>
@@ -24,7 +24,7 @@
 		</array>
 	</dict>
 	<key>DeveloperIdentifier</key>
-	<string>P599JYY9LT</string>
+	<string>U87NE528LC</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>

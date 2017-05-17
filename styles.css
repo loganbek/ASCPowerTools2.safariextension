@@ -73,3 +73,19 @@
   float: right;
   }
 
+/* Make image pop-ups resizeable. */
+#lb_image_wrapper
+  {
+  border: 2px solid;
+  padding: 20px; 
+  width: 300px;
+  resize: both;
+  overflow: auto;
+  }
+
+#lb_image_wrapper .icon-resetsolid
+  {
+  top: -2px !important;
+  left: -2px !important;
+  }
+
