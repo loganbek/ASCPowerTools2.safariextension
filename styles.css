@@ -1,10 +1,3 @@
-/* Move the refresh button back to where it is supposed to be. */
-#auto-refresh
-  {
-  left: auto !important;
-  top: auto !important;
-  }
-
 /* Show read flags in subscriptions */
 #dashboard-grid-data th.readFlag,
 #dashboard-grid-data td.readFlag 
@@ -26,6 +19,7 @@
 #dashboard-grid-data td.contentTitle
   {
   padding-right: 0px !important;
+  left: auto !important;
   }
 
 /* Don't hard-code the position of these columns. */
@@ -34,6 +28,7 @@
   {
   position: relative !important;
   right: auto !important;
+  left: auto !important;
   text-align: right !important;
   background-position: right center !important;
   } 
@@ -44,6 +39,7 @@
   {
   position: relative !important;
   right: auto !important;
+  left: auto !important;
   text-align: right !important;
   background-position: right center !important;
   } 
