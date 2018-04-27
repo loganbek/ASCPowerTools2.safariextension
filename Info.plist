@@ -5,19 +5,40 @@
 	<key>Author</key>
 	<string>Etresoft, Inc.</string>
 	<key>Builder Version</key>
-	<string>12603.3.8</string>
+	<string>12604.5.6.1.1</string>
 	<key>CFBundleDisplayName</key>
 	<string>ASCPowerTools2</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.etresoft.ascpowertools2</string>
+	<string>org.etresoft.ascpowertools2</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>3.0</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>3</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Bars</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>searchbar.html</string>
+				<key>Identifier</key>
+				<string>ascpowersearch</string>
+				<key>Label</key>
+				<string>ASCPowerSearch</string>
+			</dict>
+		</array>
+	</dict>
 	<key>Content</key>
 	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>ascpowertools.js</string>
+			</array>
+		</dict>
 		<key>Stylesheets</key>
 		<array>
 			<string>styles.css</string>
@@ -42,8 +63,8 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://etresoft.com/download/ExtensionUpdates.plist</string>
+	<string>http://etresoft.org/download/ExtensionUpdates.plist</string>
 	<key>Website</key>
-	<string>https://etresoft.com</string>
+	<string>https://etresoft.org/apple</string>
 </dict>
 </plist>
