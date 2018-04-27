@@ -16,29 +16,8 @@
 	<string>3.0</string>
 	<key>CFBundleVersion</key>
 	<string>3</string>
-	<key>Chrome</key>
-	<dict>
-		<key>Bars</key>
-		<array>
-			<dict>
-				<key>Filename</key>
-				<string>searchbar.html</string>
-				<key>Identifier</key>
-				<string>ascpowersearch</string>
-				<key>Label</key>
-				<string>ASCPowerSearch</string>
-			</dict>
-		</array>
-	</dict>
 	<key>Content</key>
 	<dict>
-		<key>Scripts</key>
-		<dict>
-			<key>End</key>
-			<array>
-				<string>ascpowertools.js</string>
-			</array>
-		</dict>
 		<key>Stylesheets</key>
 		<array>
 			<string>styles.css</string>
